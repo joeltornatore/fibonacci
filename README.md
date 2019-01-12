@@ -15,7 +15,7 @@ So the sequnce starts like this:
 Wikipedia has a great page describing Fibionacci numbers. You can read
 it [here](https://en.wikipedia.org/wiki/Fibonacci_number).
 
-YouTuber [Vihart](https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg)
+YouTuber [Vi Hart](https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg)
 has a great three-part video series on the occurance of
 Fibionacci numbers in plants. You can find them here:
 * [Part one](http://youtu.be/ahXIMUkSXX0)
