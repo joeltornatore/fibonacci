@@ -1,5 +1,5 @@
 # fibionacci
-Let's generate Fibonacci numbers!
+Let's generate Fibonacci numbers! [Run the program in your browser](http://htmlpreview.github.com/?https://github.com/joeltornatore/fibionacci/blob/master/fibber.html)!
 
 Jeffery and I were exploring Fibionacci numbers, and decided to write a
 program to generate them. The first two Fibionacci numbers are 0 and 1,
