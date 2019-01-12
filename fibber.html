@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibionacci Number Generator</title>
+    <script>
+        function fibber() {
+            const default_how_many = 5;
+            const min_how_many = 2;
+            const max_how_many = 1478;
+            var how_many = parseInt(prompt("How many fibionacci numbers would you like?", default_how_many), 10);
+            if (isNaN(how_many)) {
+                how_many = default_how_many
+            }
+            how_many = Math.max(how_many, min_how_many);
+            how_many = Math.min(how_many, max_how_many);
+            how_many = how_many - 2 // because we start with 0 and 1
+            var fibs = [0, 1];
+            for (i=0; i<how_many; i++) {
+                var first_number = fibs[i];
+                var second_number = fibs[i+1];
+                var new_number = first_number + second_number;
+                fibs.push(new_number)
+            }
+            document.getElementById("output").innerHTML = fibs.join("<br>");
+        }
+    </script>
+</head>
+<body>
+
+
+
+
+<button type="button" onclick="fibber()">Calculate Fibionacci Numbers</button>
+<br>
+<button type="button" onclick="window.alert('Copyright 2019 Jeffery Tornatore')">Copyright</button>
+<br>
+<p id="output"></p>
+
+</body>
+</html>
