@@ -43,6 +43,10 @@ and _pushing_ that sum onto the end of the _fibs_ list. We do this
 _count - 2_ times, which seems like it would be two fewer than
 requested, but we initialized the list with the first two numbers so it
 works out.
-* The numbers get printed by updating the _output_ HTML element with
-the results of the [_join_](https://www.geeksforgeeks.org/javascript-array-join-method/)
-them with the line break element.
+* The numbers get printed by updating the _output_ HTML element. We
+[_join_](https://www.geeksforgeeks.org/javascript-array-join-method/)
+ each of the numbers in our list with the line break element, so there
+is one per line.
+
+---
+This was a fun little project for both us. Let's do more!
