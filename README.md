@@ -50,4 +50,4 @@ works out.
 is one per line.
 
 ---
-This was a fun little project for both us. Let's do more!
+This was a fun little project for both of us. Let's do more!
