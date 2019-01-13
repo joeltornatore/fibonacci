@@ -24,9 +24,10 @@ Fibonacci numbers in plants. You can find them here:
 
 ---
 
-Our program is very simple. It displays a blank page with two buttons,
-one that pops up our silly copyright text (just for fun!) and one that
-will call the _fibber_ function. That's where the actual work is done.
+Our program is very simple. It displays a blank page with three buttons:
+one pops up our silly copyright text (just for fun!), one redirects
+you to github to see this file, and one that calls the _fibber_
+function. That's where the actual work is done.
 
 The fibber function does the following:
 * Prompts for how many Fibonacci numbers to generate. We make sure you
@@ -35,7 +36,7 @@ calling the [_parseInt_](https://www.w3schools.com/jsref/jsref_parseint.asp)
 function. It returns _NaN_ (Not A Number) if you entered text that was
 not a number. In that case, we will generate _default_how_many_
 Fibonacci numbers. We also check that you don't ask for too few or too
-many. The minimum you can do is two, and most is 1478. Try that many to
+many. The minimum you can do is two, and most is 1478. Try more to
 see what happens!
 * We initialize our _fibs_ list to 0 and 1, the first two in the series.
 * We generate the rest of the numbers by adding the two previous numbers
